@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -114,7 +113,8 @@ export default {
 				'scale-out': 'scale-out 0.2s ease-out'
 			},
 			fontFamily: {
-				sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+				heading: ['Outfit', 'sans-serif'],
 			}
 		}
 	},
